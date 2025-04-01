@@ -10,8 +10,8 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Products</title>
-    <link rel="stylesheet" href="https://cdn.spring-e-commerce.academy/assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://cdn.spring-e-commerce.academy/assets/css/main.css" />
+    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/main.css" />
 </head>
 
 <body>
@@ -206,7 +206,7 @@ session_start();
     </div> -->
     <!-- End Footer -->
 
-    <script src="https://cdn.spring-e-commerce.academy/assets/js/bootstrap.bundle.js"></script>
+    <script src="https://d16mupo63ti3ee.cloudfront.netassets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

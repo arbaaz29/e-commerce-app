@@ -20,8 +20,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Admin Dashboard</title>
-    <link rel="stylesheet" href="https://cdn.spring-e-commerce.academy/assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://cdn.spring-e-commerce.academy/assets/css/main.css" />
+    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/main.css" />
 </head>
 
 <body>
@@ -66,7 +66,7 @@
             <div class="row align-items-center">
                 <div class="col-md-2">
                     <div class="admin-image">
-                        <a href="./index.php"><img src="https://cdn.spring-e-commerce.academy/admin/admin_images/<?php echo $admin_image;?>" class="img-thumbnail" alt="Admin Photo"></a>
+                        <a href="./index.php"><img src="https://d16mupo63ti3ee.cloudfront.netadmin/admin_images/<?php echo $admin_image;?>" class="img-thumbnail" alt="Admin Photo"></a>
                         <p><?php echo $admin_name;?></p>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
     </div> -->
     <!-- End Footer -->
 
-    <script src="https://cdn.spring-e-commerce.academy/assets/js/bootstrap.bundle.js"></script>
+    <script src="https://d16mupo63ti3ee.cloudfront.netassets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

@@ -35,9 +35,9 @@
         if(empty($product_title) || empty($product_description) || empty($product_keywords) || empty($product_category_id) || empty($product_brand_id) || empty($product_image_one) || empty($product_image_two) || empty($product_image_three) || empty($product_price)){
             echo "<script>window.alert('Please fill all fields');</script>";
         }else{
-            move_uploaded_file($product_image_one_tmp,"https://cdn.spring-e-commerce.academy/admin/product_images/$product_image_one");
-            move_uploaded_file($product_image_two_tmp,"https://cdn.spring-e-commerce.academy/admin/product_images/$product_image_two");
-            move_uploaded_file($product_image_three_tmp,"https://cdn.spring-e-commerce.academy/admin/product_images/$product_image_three");
+            move_uploaded_file($product_image_one_tmp,"https://d16mupo63ti3ee.cloudfront.netadmin/product_images/$product_image_one");
+            move_uploaded_file($product_image_two_tmp,"https://d16mupo63ti3ee.cloudfront.netadmin/product_images/$product_image_two");
+            move_uploaded_file($product_image_three_tmp,"https://d16mupo63ti3ee.cloudfront.netadmin/product_images/$product_image_three");
             // update query 
             $update_product_query = "UPDATE `products` SET category_id=$product_category_id,brand_id=$product_brand_id,product_title='$product_title',product_description='$product_description',product_keywords='$product_keywords',product_image_one='$product_image_one',product_image_two='$product_image_two',product_image_three='$product_image_three',product_price='$product_price',date=NOW() WHERE product_id = $edit_id";
             $update_product_result = mysqli_query($con,$update_product_query);
@@ -107,21 +107,21 @@
                     <label for="product_image_one" class="form-label">Product Image 1</label>
                     <div class="d-flex">
                         <input type="file" name="product_image_one" id="product_image_one" class="form-control" value="<?php echo $product_image_one_old;?>">
-                        <img src="https://cdn.spring-e-commerce.academy/admin/product_images/<?php echo $product_image_one_old;?>" alt="<?php echo $product_title;?>" class="img-thumbnail" width="100px">
+                        <img src="https://d16mupo63ti3ee.cloudfront.netadmin/product_images/<?php echo $product_image_one_old;?>" alt="<?php echo $product_title;?>" class="img-thumbnail" width="100px">
                     </div>
                 </div>
                 <div class="form-outline">
                     <label for="product_image_two" class="form-label">Product Image 2</label>
                     <div class="d-flex">
                         <input type="file" name="product_image_two" id="product_image_two" class="form-control" value="<?php echo $product_image_two_old;?>">
-                        <img src="https://cdn.spring-e-commerce.academy/admin/product_images/<?php echo $product_image_two_old;?>" alt="<?php echo $product_title;?>" class="img-thumbnail" width="100px">
+                        <img src="https://d16mupo63ti3ee.cloudfront.netadmin/product_images/<?php echo $product_image_two_old;?>" alt="<?php echo $product_title;?>" class="img-thumbnail" width="100px">
                     </div>
                 </div>
                 <div class="form-outline">
                     <label for="product_image_three" class="form-label">Product Image 3</label>
                     <div class="d-flex">
                         <input type="file" name="product_image_three" id="product_image_three" class="form-control" value="<?php echo $product_image_three_old;?>">
-                        <img src="https://cdn.spring-e-commerce.academy/admin/product_images/<?php echo $product_image_three_old;?>" alt="<?php echo $product_title;?>" class="img-thumbnail" width="100px">
+                        <img src="https://d16mupo63ti3ee.cloudfront.netadmin/product_images/<?php echo $product_image_three_old;?>" alt="<?php echo $product_title;?>" class="img-thumbnail" width="100px">
                     </div>
                 </div>
                 <div class="form-outline">
