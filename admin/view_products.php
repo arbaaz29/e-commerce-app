@@ -55,7 +55,7 @@
                             <td>$id_number</td>
                             <td>$product_title</td>
                             <td>
-                                <img src='./product_images/$product_image_one' alt='$product_title' width='80px' class='img-thumbnail'/>
+                                <img src='https://cdn.spring-e-commerce.academy/admin/product_images/$product_image_one' alt='$product_title' width='80px' class='img-thumbnail'/>
                             </td>
                             <td>$product_price $</td>
                             <td>$quantity_sold_of_each_product</td>

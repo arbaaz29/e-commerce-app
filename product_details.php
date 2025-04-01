@@ -182,8 +182,8 @@ session_start();
     </div> -->
     <!-- End Footer -->
 
-    <script src="https://cdn.spring-e-commerce.academy/js/bootstrap.bundle.js"></script>
-    <script src="https://cdn.spring-e-commerce.academy/js/script.js"></script>
+    <script src="https://cdn.spring-e-commerce.academy/assets/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.spring-e-commerce.academy/assets/js/script.js"></script>
 </body>
 
 </html>

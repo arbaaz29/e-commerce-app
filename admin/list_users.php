@@ -60,7 +60,7 @@
                             <td>$username</td>
                             <td>$user_email</td>
                             <td>
-                                <img src='../users_area/user_images/$user_image' alt='$username photo' class='img-thumbnail' width='100px'/>
+                                <img src='https://cdn.spring-e-commerce.academy/users_area/user_images/$user_image' alt='$username photo' class='img-thumbnail' width='100px'/>
                             </td>
                             <td>$user_address</td>
                             <td>$user_mobile</td>

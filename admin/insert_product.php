@@ -22,9 +22,9 @@ if(isset($_POST['insert_product'])){
         exit();
     }else{
         //move folders
-        move_uploaded_file($temp_image_one,"./product_images/$product_image_one");
-        move_uploaded_file($temp_image_two,"./product_images/$product_image_two");
-        move_uploaded_file($temp_image_three,"./product_images/$product_image_three");
+        move_uploaded_file($temp_image_one,"https://cdn.spring-e-commerce.academy/admin/product_images/$product_image_one");
+        move_uploaded_file($temp_image_two,"https://cdn.spring-e-commerce.academy/admin/product_images/$product_image_two");
+        move_uploaded_file($temp_image_three,"https://cdn.spring-e-commerce.academy/admin/product_images/$product_image_three");
         //insert query in db
         $insert_query = "INSERT INTO `products` (product_title,product_description,product_keywords,category_id,brand_id,product_image_one,product_image_two,product_image_three,product_price,date,status) VALUES ('$product_title','$product_description','$product_keywords','$product_category','$product_brand','$product_image_one','$product_image_two','$product_image_three','$product_price',NOW(),'$product_status')";
         $insert_result=mysqli_query($con,$insert_query);
@@ -41,8 +41,8 @@ if(isset($_POST['insert_product'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insert Products - Admin Dashboard</title>
-    <link rel="stylesheet" href="../assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdn.spring-e-commerce.academy/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.spring-e-commerce.academy/assets/css/main.css" />
 </head>
 
 <body>
