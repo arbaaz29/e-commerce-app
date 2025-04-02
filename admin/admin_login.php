@@ -10,8 +10,8 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Admin Login</title>
-    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/main.css" />
+    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net/assets/css/main.css" />
 </head>
 
 <body>
@@ -23,7 +23,7 @@ session_start();
             <h4 class="text-center mb-3 fw-light">Login to your account</h4>
             <div class="row m-0 align-items-center">
                 <div class="col-md-6 p-0 d-none d-md-block">
-                    <img src="https://d16mupo63ti3ee.cloudfront.netassets/images/bgregister.png" class="admin-register" alt="Login photo">
+                    <img src="https://d1mt0nc4hiw50n.cloudfront.net/assets/images/bgregister.png" class="admin-register" alt="Login photo">
                 </div>
                 <div class="col-md-6 py-4 px-5 d-flex flex-column gap-4">
                     <div>
@@ -63,7 +63,7 @@ session_start();
     </div> -->
     <!-- End Footer -->
 
-    <script src="https://d16mupo63ti3ee.cloudfront.netassets/js/bootstrap.bundle.js"></script>
+    <script src="https://d1mt0nc4hiw50n.cloudfront.net/assets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

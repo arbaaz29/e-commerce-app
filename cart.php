@@ -10,8 +10,8 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Cart Details Page</title>
-    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://d16mupo63ti3ee.cloudfront.netassets/css/main.css" />
+    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net/assets/css/main.css" />
 </head>
 
 <body>
@@ -167,7 +167,7 @@ session_start();
                                         <td>
                                             <?php echo $product_title; ?>
                                         </td>
-                                        <td><img src="https://d16mupo63ti3ee.cloudfront.netadmin/product_images/<?php echo $product_image_one; ?>" class="img-thumbnail" alt="<?php echo $product_title; ?>"></td>
+                                        <td><img src="https://d1mt0nc4hiw50n.cloudfront.net/admin/product_images/<?php echo $product_image_one; ?>" class="img-thumbnail" alt="<?php echo $product_title; ?>"></td>
                                         <td>
                                             <input type="number" class="form-control w-50 mx-auto" min="1" name="qty_<?php echo $product_id; ?>">
                                         </td>
@@ -294,7 +294,7 @@ session_start();
     </div> -->
     <!-- End Footer -->
 
-    <script src="https://d16mupo63ti3ee.cloudfront.netassets/js/bootstrap.bundle.js"></script>
+    <script src="https://d1mt0nc4hiw50n.cloudfront.net/assets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
