@@ -10,8 +10,8 @@ include('../includes/connect.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Checkout Page</title>
-    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net//assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net//assets/css/main.css" />
+    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://d1mt0nc4hiw50n.cloudfront.net/assets/css/main.css" />
 </head>
 
 <body>
@@ -146,7 +146,7 @@ include('../includes/connect.php');
     </div> -->
     <!-- End Footer -->
 
-    <script src="https://d1mt0nc4hiw50n.cloudfront.net//assets/js/bootstrap.bundle.js"></script>
+    <script src="https://d1mt0nc4hiw50n.cloudfront.net/assets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

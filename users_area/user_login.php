@@ -44,7 +44,7 @@ include('../functions/common_functions.php');
             </div>
         </div>
     </div>
-    <script src="./assets//js/bootstrap.bundle.js"></script>
+    <script src="https://d1mt0nc4hiw50n.cloudfront.net/assets/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
